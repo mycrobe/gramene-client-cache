@@ -1,2 +1,2 @@
-# gramene-search-client-cache
-Browser-only cache for gramene search client
+# Gramene client cache
+Browser-only cache intended to reduce the amount of queries that gramoogle makes to gramene-search-client
