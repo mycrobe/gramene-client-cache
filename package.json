@@ -1,0 +1,28 @@
+{
+  "name": "gramene-client-cache",
+  "version": "1.0.0",
+  "description": "Browser-only cache intended to reduce the amount of queries that gramoogle makes to gramene-search-client",
+  "main": "index.js",
+  "scripts": {
+    "test": "node node_modules/jasmine-node/lib/jasmine-node/cli.js spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mycrobe/gramene-client-cache.git"
+  },
+  "author": "mycrobe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mycrobe/gramene-client-cache/issues"
+  },
+  "homepage": "https://github.com/mycrobe/gramene-client-cache",
+  "dependencies": {
+    "json-stable-stringify": "^1.0.0",
+    "lru-cache": "^2.6.2"
+  },
+  "devDependencies": {
+    "jasmine-expect": "^2.0.0-beta1",
+    "jasmine-node": "^1.14.5",
+    "jasmine-pit": "^2.0.2"
+  }
+}
